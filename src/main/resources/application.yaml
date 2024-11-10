@@ -12,7 +12,3 @@ spring:
     hibernate:
       ddl-auto: create-drop
     defer-datasource-initialization: true
-  logging:
-    level:
-      org.hibernate.SQL: DEBUG
-      org.testcontainers: INFO
